@@ -1,11 +1,10 @@
-package com.example.basenativeapp
+package com.example.mylibrary
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import io.flutter.embedding.android.FlutterActivity
 
-
-class MainActivity : AppCompatActivity() {
+class FlutterModule : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         startActivity(
