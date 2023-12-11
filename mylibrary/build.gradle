@@ -17,7 +17,7 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -80,7 +80,7 @@ publishing {
                  ** Set env variable GPR_USER & GPR_API_KEY if not adding a properties file**/
 
                 username = "bugrahancamlibel"
-                password = "yourtoken"
+                password = "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"
             }
         }
     }
