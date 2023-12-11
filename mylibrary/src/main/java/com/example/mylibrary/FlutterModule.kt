@@ -7,6 +7,8 @@ import io.flutter.embedding.android.FlutterActivity
 class FlutterModule : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+    }
+    fun startFlutterActivity() {
         startActivity(
             FlutterActivity.createDefaultIntent(this)
         )
